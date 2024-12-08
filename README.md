@@ -1,5 +1,7 @@
 Food Hub - Frontend
 
+Live Link: https://food-hub-pi.vercel.app/
+
 Overview
 
 This is the frontend portion of the Recipe Sharing system built using ReactJS. The website allows users to view and share recipes, as well as purchase coins to view recipe details. Users are authenticated using Google Firebase Authentication, and they can earn or spend coins based on their interactions with the system.
