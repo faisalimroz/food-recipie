@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+/* Hide scrollbar for IE and Edge */
+* {
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f8fffa;
+  box-sizing: border-box;
+}
+.bg-image {
+  background-image: url('https://foodhub.modeltheme.com/wp-content/uploads/2020/02/foodhub-slider-main-food-v4.jpg?id=20741');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+  min-height: 500px; /* Ensures a minimum height for smaller screens */
+}
+
+/* For larger screens */
+@media (min-width: 1200px) {
+  .bg-image {
+    height: 700px;
+  }
+}
+
+/* For medium screens */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .bg-image {
+    height: 500px;
+  }
+}
+
+/* For small screens */
+@media (max-width: 767px) {
+  .bg-image {
+    height: 300px;
+  }
+}
+
+
+
+@media screen and (min-width: 1400px) {
+  .main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
